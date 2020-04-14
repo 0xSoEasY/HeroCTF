@@ -1,0 +1,4 @@
+Le message est ici codé en base32.
+On peut utiliser le site dcode pour le déchiffrer : https://www.dcode.fr/code-base-32
+
+HeroCTF{who_uses_base32_111}
