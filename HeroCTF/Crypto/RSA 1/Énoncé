@@ -1,0 +1,6 @@
+L'alien vous a encore envoyé un message, mais cette fois-ci, il a l'air bien chiffré.
+Fort heureusement on a réussi à intercepter la clé utilisée pour le chiffrement.
+Pouvez-vous essayer de le lire ?
+
+Format du flag: HeroCTF{flag}
+Author : Worty
