@@ -1,0 +1,6 @@
+Ce challenge fait référence à la suite de Fibonacci (suite d'entiers dans laquelle chaque terme est la
+somme des deux termes qui le précèdent).
+
+Suite : 0 	1 	1 	2 	3 	5 	8 	13 	21 	34 	55 	89 	144 	233 	377 	610 	987
+
+HeroCTF{89, 144}
