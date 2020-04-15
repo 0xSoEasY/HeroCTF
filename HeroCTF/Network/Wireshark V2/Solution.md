@@ -1,7 +1,7 @@
 Même chose que pour le "Wireshark V1", on ouvre le fichier "Capture2.pcapng" avec Wireshark et on applique le filtre http.
 
 L'énoncé nous met sur la voie : on doit étudier l'upload d'un fichier.
-La requête suivant attire non attention :
+La requête suivant attire notre attention :
 ```
 160	6.521582	127.0.0.1	127.0.0.1	HTTP	893	POST /upload/ HTTP/1.1  (text/plain)
 ```
