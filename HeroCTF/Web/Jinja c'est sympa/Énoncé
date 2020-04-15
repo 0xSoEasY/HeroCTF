@@ -1,0 +1,9 @@
+Ce site internet aimerait passer en production mais avant il aimerait que vous le tester.
+
+http://heroctf.fr:5000
+
+Récupérer la "SECRET_KEY" du site.
+
+Format du flag: HeroCTF{flag}
+
+Author: xanhacks
