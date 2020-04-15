@@ -8,4 +8,4 @@ Le HeroCTF est un CTF organisé par des étudiant de DUT informatique de l'IUT d
 - Twitter de L'Hackonfrérie : https://twitter.com/hackonfrerie
 - Site de l'IUT Vannes : https://www.iutvannes.fr/
 
-> HeroCTF{W3_w1ll_b3_b4ck}
+`HeroCTF{W3_w1ll_b3_b4ck}`
