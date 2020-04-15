@@ -22,4 +22,5 @@ class JavHack1 {
 }
 ```
 On voit ici que l'input est comparé à le chaine "v3rY_34sy_fl4g_010101", qui est notre flag.
+
 HeroCTF{v3rY_34sy_fl4g_010101}
