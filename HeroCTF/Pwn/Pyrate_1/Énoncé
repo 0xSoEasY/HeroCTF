@@ -1,0 +1,11 @@
+Un admin peu consciencieux a installé un service qui interprète les scripts pythons. À vous de trouver le moyen de lire ses fichiers secrets !
+
+nc heroctf.fr 3002
+
+hint :  Exemple:
+        print("Hello world")
+        EOF
+
+
+Format du flag: HeroCTF{flag}
+Auteur: Worty
