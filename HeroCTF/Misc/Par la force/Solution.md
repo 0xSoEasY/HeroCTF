@@ -23,5 +23,6 @@ $ unzip -P toto flag.txt.zip
 Archive:  flag.txt.zip
  extracting: flag.txt                
 $ cat flag.txt
-HeroCTF{bru73_f0rc3_4h4h_010134
+HeroCTF{bru73_f0rc3_4h4h_010134}
 ```
+HeroCTF{bru73_f0rc3_4h4h_010134}
