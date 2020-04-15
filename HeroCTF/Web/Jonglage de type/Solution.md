@@ -30,7 +30,7 @@ Par exemple on a "0e158280" == "0", car 0*'e' exposant 158280 est égal à 0.
 Il faut donc que tiger160,3(flag) soit égal à "0e" suivi d'un nombre (Ex: 0e19725792)
 Ces hash là sont appelés les "magic hashes" et il en existe plein à notre disposition sur internet (ici par exemple : https://github.com/spaze/hashes).
 
-Après un peu de recherche on trouve:
+Après un peu de recherche on trouve :
 ```
 tiger160,3("hb0cYfCVfqTU") = "0e28469497236129742421550691160399801254"
 ```
