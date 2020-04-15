@@ -1,0 +1,11 @@
+Le développeur a fait des progrès ! Ça ne sera pas aussi simple cette fois...
+
+nc heroctf.fr 3001
+
+(En cas de problème avec l'environnement du challenge merci de contacter xanhacks. Pour toute question sur le challenge en lui-même merci de contacter SoEasY.)
+
+Format du flag: HeroCTF{flag}
+
+hint : Un petit coup d'analyse statique ça a jamais fais de mal à personne...
+
+Auteur: SoEasY
