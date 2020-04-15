@@ -1,0 +1,8 @@
+L'admin est repassé sur son serveur pour y apporter des modifications.
+Il a renforcé la sécurité de son système.
+Prouvez lui encore une fois que ce n'est pas suffisant en lisant ses autres fichiers secrets !
+
+nc heroctf.fr 3003
+
+Format du flag: HeroCTF{flag}
+Auteur: Worty
