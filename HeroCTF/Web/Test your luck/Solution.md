@@ -1,6 +1,6 @@
 Ce challenge, comme le dit l'énoncé, est fait pour être bruteforcé !
 
-Le principe est de trouver le nombre entre 0 et 5000 choisit aléatoirement coté serveur.
+Le principe est de trouver le nombre entre 0 et 5000 choisi aléatoirement coté serveur.
 
 Pour résoudre ce challenge, on peut par exemple utiliser l'outil Burp Suite ou faire un rapide script en python (on choisit un nombre proche de 5000/2 = 2500 pour une plus grande probabilité):
 ```python
