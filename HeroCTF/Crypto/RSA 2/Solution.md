@@ -44,4 +44,4 @@ for caractere_chiffre in liste_chiffre:
             break
 print(flag)
 ```
-HeroCTF{us1ng_rs4_w1th_sm4ll_pr1m3_numb3r_1s_b4d}
+Résultat : HeroCTF{us1ng_rs4_w1th_sm4ll_pr1m3_numb3r_1s_b4d}
