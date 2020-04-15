@@ -1,0 +1,9 @@
+Nous avons intercepté un paquet réseau, et nous aimerions que vous l'examiniez.
+Apparemment, une tentative de connexion a été repérée.
+A vous de trouver le mot de passe utilisé!
+
+Format du flag: HeroCTF{flag}
+
+hint : N'oubliez pas le protocole utilisé sur les sites internets ...
+
+Author: Worty
