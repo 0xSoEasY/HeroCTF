@@ -1,0 +1,8 @@
+Vous devez retrouver le mot de passe de cette application Java.
+
+Format du flag: HeroCTF{flag}
+
+hint 1 : http://www.javadecompilers.com/ 
+hint 2 : https://github.com/java-decompiler/jd-gui
+
+Author: xanhacks
