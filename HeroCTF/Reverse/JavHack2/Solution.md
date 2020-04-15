@@ -43,10 +43,10 @@ Il faut que la méthode "checkPassword" renvoie "True".
 Après analyse de la méthode checkPassword, on s'aperçoit que le password que l'on
 rentre est transformé en array de bytes. Chaque élément est alors comparé un à un avec
 l'array suivante:
-
+```java
 byte[] myBytes = {52, 53, 99, 49, 49, 95, 119, 49, 55, 104, 95, 106, 52, 118,
 52, 95, 120, 100, 95, 49, 48, 53, 56, 50};
-
+```
 Chaque élément de cette array correspond donc au code ASCII de chaque caractère du flag.
 
 Pour résoudre ce challenge, on peut donc utiliser un convertisseur en ligne (par exemple : https://onlineasciitools.com/convert-bytes-to-ascii) ou faire un petit script en python !
