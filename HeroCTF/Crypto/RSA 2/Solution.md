@@ -1,7 +1,7 @@
 - 1ère méthode:
 On utilise RsaCtfTool (https://github.com/Ganapati/RsaCtfTool)
 
-```
+```bash
 $ for i in `cat rsa2.enc`;do python RsaCtfTool.py -n 627585038806247 -e 65537 --uncipher $i;done
 [+] Clear text : H
 [+] Clear text : e
