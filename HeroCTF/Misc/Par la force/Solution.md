@@ -1,6 +1,7 @@
 Dans ce challenge, le but est de trouver le mot de passe du zip contenant le flag.
 
 Pour ceci, on peut utiliser zip2john et john the ripper avec la fameuse wordlist "rockyou".
+(Ce challenge est aussi faisable avec des outils en ligne)
 ```bash
 $ zip2john flag.txt.zip | tee flag.hash
 ver 1.0 efh 5455 efh 7875 flag.txt.zip/flag.txt PKZIP Encr: 2b chk, TS_chk, cmplen=45, decmplen=33, crc=711DEEDE
