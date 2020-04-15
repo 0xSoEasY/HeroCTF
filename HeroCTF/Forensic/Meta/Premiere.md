@@ -1,1 +1,0 @@
-# HeroCTF - La première
