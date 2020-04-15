@@ -22,9 +22,9 @@ $ for i in `cat rsa2.enc`;do python RsaCtfTool.py -n 627585038806247 -e 65537 --
 Résultat : HeroCTF{us1ng_rs4_w1th_sm4ll_pr1m3_numb3r_1s_b4d}
 
 
-- 2ème méthode, proposée par Mathis HAMMEL (https://twitter.com/MathisHammel):
-La deuxième méthode consiste à utiliser le couple (n,e) fournis, utilisés pour chiffrer le flag.
+- 2ème méthode, proposée par Mathis HAMMEL (https://twitter.com/MathisHammel)
 
+La deuxième méthode consiste à utiliser le couple (n,e) fournis, utilisés pour chiffrer le flag.
 Pour chaque caractère chiffré, on essaie de trouver quel est le caractère clair qui lui correspond.
 Pour cela, on chiffre chaque valeur possible de caractère ASCII, et on en aura un qui correspondra au caractère chiffré,
 ce qui nous indique que c'est ce caractère à cette position.
