@@ -42,7 +42,7 @@ On ouvre ce binaire dans notre désassembleur favori (Cutter, IDA, Ghidra, Radar
 0x00401236      leave
 0x00401237      ret
 ```
-On peut utiliser le décompiler si l'assembleur ne nous semble pas clair (pas de honte à ça !) :
+On peut utiliser le décompiler si l'assembleur ne nous semble pas clair (pas de honte à cela !) :
 ```c
 undefined8 main(undefined8 argc, char **argv)
 {
