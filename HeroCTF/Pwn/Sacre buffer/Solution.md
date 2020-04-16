@@ -61,7 +61,7 @@ undefined8 main(undefined8 argc, char **argv)
 On continue de se balader et on remarque une fonction intéressante !
 ```bash
 $ nm pwn2 
-00 00 00 00 00 40 11 82 T afficherFlagG4NG
+0000000000401182 T afficherFlagG4NG
 [...]
 ```
 Voyons voir celle-ci de plus près :
