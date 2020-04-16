@@ -93,7 +93,9 @@ On constate dans le main que l'on peut écrire sans limite dans le buffer d'inpu
 
 Dans l'idée on pourrait alors se dire qu'il faut écrire 256 caractères suivis de notre adresse (sans oublier le little endian) et que le tour est joué ! Eh oui... Mais non.
 
-En effet, ici l'ASLR (Address Space Layout Randomization) est activée, ce qui a pour effet de mettre un espace dans la stack entre notre buffer et l'adresse retour de la fonction main. Il nous faudra finalement 280 caractères avant d'avoir la main sur l'adresse de retour.
+// TODO
+
+Il nous faudra finalement 280 caractères avant d'avoir la main sur l'adresse de retour.
 
 On peut alors résoudre le challenge grâce à Python (eh oui, encore et toujours)
 ```python
