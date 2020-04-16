@@ -51,7 +51,7 @@ public class JavHack4
     }
 }
 ```
-Après décompilation ou peut voir 2 nouvelles méthodes : "swap" et "obfuscation". "Swap" permet d'intervertir 2 éléments dans dans une chaine, "obfuscation" se charger d'obfusquer (comprennez "rendre illisible") une chaine.
+Après décompilation ou peut voir 2 nouvelles méthodes : "swap" et "obfuscation". "Swap" permet d'intervertir 2 éléments dans une chaine, "obfuscation" se charge d'obfusquer (comprennez "rendre illisible") une chaine.
 
 Notre input est passé dans cette méthode puis est comparé dans "checkPassword".
 ```java
