@@ -89,7 +89,7 @@ Voyons voir celle-ci de plus près :
 ```
 Cette fonction nous donnera le flag sur le serveur !
 
-On constate dans le main que l'on peut écrire sans limite dans le buffer d'input, et on va s'en servir pour overflow le buffer de 256 caractères et réécrire l'adresse de retour : on veut ainsi appeler la fonction `afficherFlagG4NG` qui a pour addresse `0x0000000000401182`.
+On constate dans le main que l'on peut écrire sans limite dans le buffer d'input, et on va s'en servir pour overflow le buffer de 256 caractères (0x110 - 0x10 = 0x100 = 256) et réécrire l'adresse de retour : on veut ainsi appeler la fonction `afficherFlagG4NG` qui a pour addresse `0x0000000000401182`.
 
 Dans l'idée on pourrait alors se dire qu'il faut écrire 256 caractères suivis de notre adresse (sans oublier le little endian) et que le tour est joué ! Eh oui... Mais non.
 
@@ -99,7 +99,7 @@ Dans l'idée on pourrait alors se dire qu'il faut écrire 256 caractères suivis
 ; var int64_t var_114h @ rbp-0x114
 ; var char *s @ rbp-0x110
 ```
-Notre input est stocké dans le buffer identifié comme `char *s` (qui fait donc une taille de 256 octets). L'adresse de retour (un quadword soit 8 octets) est pop de la stack via l'instruction `ret` puis mise dans `rip` (instruction pointer) en fin de fonction.
+Notre input est stocké dans le buffer identifié comme `char *s` (qui fait donc une taille de 256 octets). L'adresse de retour (un quadword, car on est en x64, soit 8 octets) est pop de la stack via l'instruction `ret` puis mise dans `rip` (instruction pointer) en fin de fonction `main`.
 Pour réécrire celle-ci, il nous faudra donc overwrite les int `var_114h` et `var_120h` (8 octets chacun) puis `rbp` (base pointer, qui indique le début de la stack) (8 octets également).
 
 Il nous faudra donc finalement 256+(8\*3) = 280 caractères avant d'avoir la main sur l'adresse de retour.
