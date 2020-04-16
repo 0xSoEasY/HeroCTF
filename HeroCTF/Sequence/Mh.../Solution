@@ -1,4 +1,12 @@
 Il s'agit ici de la suite de Conway !
 (au passage, très bonne vidéo sur le sujet ici : https://www.youtube.com/watch?v=IsKBRj6_VSs)
 
+Il s'agit ici de décrire à haute voix la ligne précédente :
+1 (il y a ici un "1" --> 11)
+11 (il y a ici deux "1" --> 21)
+21 (il y a ici un "2" et un "1" --> 1211)
+1211 (il y a ici un "1", un "2" et deux "un" --> 111221)
+111221 (il y a ici trois "1", deux "2", et un "1" --> 312211)
+312211 (il y a ici un "3", un "1", deux "2", deux "1" --> 13112221)
+
 HeroCTF{13112221}
