@@ -47,4 +47,4 @@ Liste des challenges :
 | Rules | OSINT | SoEasY | 10 | SoEasY |
 | Discord | OSINT | SoEasY | 100 | SoEasY |
 
-Total : 4O challenges !
+Total : 40 challenges !
