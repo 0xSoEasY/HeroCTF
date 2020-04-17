@@ -14,7 +14,7 @@ Liste des challenges :
 | [Pyrate #4](Pwn/Pyrate_4) | Pwn | Worty | BONUS | xanhacks/Worty |
 | [JavHack 1](Reverse/JavHack1) | Reverse | xanhacks | 100 | SoEasY |
 | [JavHack 2](Reverse/JavHack2) | Reverse | xanhacks | 200 | SoEasY |
-| [JavHack 4](Reverse/JavHack3) | Reverse | xanhacks | 350 | SoEasY |
+| [JavHack 3](Reverse/JavHack3) | Reverse | xanhacks | 350 | SoEasY |
 | [JavHack 4](Reverse/JavHack4) | Reverse | xanhacks | 400 | xanhacks |
 | [Caius Julius](Crypto/Caius%20Julius) | Crypto | xanhacks | 50 | SoEasY |
 | [Changement de base](Crypto/Changement%20de%20base) | Crypto | xanhacks | 50 | SoEasY |
