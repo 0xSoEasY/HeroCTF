@@ -12,19 +12,19 @@ Liste des challenges :
 | [Pyrate #3](Pwn/Pyrate_3) | Pwn | Worty | 400 | Worty |
 | [Sacré Buffer](Pwn/Sacre%20buffer) | Pwn | SoEasY | 500 | SoEasY |
 | [Pyrate #4](Pwn/Pyrate_4) | Pwn | Worty | BONUS | xanhacks/Worty |
-| [JavHack 1]() | Reverse | xanhacks | 100 | SoEasY |
-| [JavHack 2]() | Reverse | xanhacks | 200 | SoEasY |
-| [JavHack 4]() | Reverse | xanhacks | 350 | SoEasY |
-| [JavHack 4]() | Reverse | xanhacks | 400 | xanhacks |
-| [Caius Julius]() | Crypto | xanhacks | 50 | SoEasY |
-| [Changement de base]() | Crypto | xanhacks | 50 | SoEasY |
-| [Hang up]() | Crypto | xanhacks | 75 | SoEasY |
-| [Changement de base #2]() | Crypto | xanhacks | 75 | SoEasY |
-| [MD5 Broken]() | Crypto | xanhacks | 150 | SoEasY |
-| [Arthur]() | Crypto | Worty | 150 | SoEasY |
-| [RSA #1]() | Crypto | Worty | 150 | SoEasY |
-| [What the fuck]() | Crypto | xanhacks | 200 | SoEasY |
-| [RSA #2]() | Crypto | Worty | 350 | Mathis Hammel/SoEasY |
+| [JavHack 1](Reverse/JavHack1) | Reverse | xanhacks | 100 | SoEasY |
+| [JavHack 2](Reverse/JavHack2) | Reverse | xanhacks | 200 | SoEasY |
+| [JavHack 4](Reverse/JavHack3) | Reverse | xanhacks | 350 | SoEasY |
+| [JavHack 4](Reverse/JavHack4) | Reverse | xanhacks | 400 | xanhacks |
+| [Caius Julius](Crypto/Caius%20Julius) | Crypto | xanhacks | 50 | SoEasY |
+| [Changement de base](Crypto/Changement%20de%20base) | Crypto | xanhacks | 50 | SoEasY |
+| [Hang up](Crypto/Hang%20up) | Crypto | xanhacks | 75 | SoEasY |
+| [Changement de base #2](Crypto/Changement%20de%20base%202) | Crypto | xanhacks | 75 | SoEasY |
+| [MD5 Broken](Crypto/MD5%20Broken) | Crypto | xanhacks | 150 | SoEasY |
+| [Arthur](Crypto/Arthur) | Crypto | Worty | 150 | SoEasY |
+| [RSA #1](Crypto/RSA%201) | Crypto | Worty | 150 | SoEasY |
+| [What the fuck](Crypto/What%20the%20fuck) | Crypto | xanhacks | 200 | SoEasY |
+| [RSA #2](Crypto/RSA%202) | Crypto | Worty | 350 | Mathis Hammel/SoEasY |
 | [Retour aux sources]() | Web | xanhacks | 100 | SoEasY |
 | [Javascript kiddie]() | Web | xanhacks | 150 | SoEasY |
 | [Calculator]() | Web | Worty | 150 | SoEasY |
@@ -36,7 +36,7 @@ Liste des challenges :
 | [M2201]() | Misc | SoEasY | 300 | SoEasY |
 | [Wireshark V1]() | Network | Worty | 150 | SoEasY |
 | [Wireshark V2]() | Network | Worty | 250 | SoEasY |
-| [Meta | Forensic]() | xanhacks | 75 | SoEasY |
+| [Meta]() | Forensic | xanhacks | 75 | SoEasY |
 | [Vilain PDF]() | Forensic | Worty | 100 | SoEasY |
 | [Wrong signature]() | Forensic | xanhacks | 200 | SoEasY |
 | [Lumos maxima]() | Stegano | Matisse | 100 | SoEasY |
