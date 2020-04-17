@@ -10,7 +10,7 @@ Liste des challenges :
 | [Pyrate #1](Pwn/Pyrate_1) | Pwn | Worty | 125 | SoEasY |
 | [Pyrate #2](Pwn/Pyrate_2) | Pwn | Worty | 225 | SoEasY |
 | [Pyrate #3](Pwn/Pyrate_3) | Pwn | Worty | 400 | Worty |
-| [Sacré Buffer](Pwn/Sacre buffer) | Pwn | SoEasY | 500 | SoEasY |
+| [Sacré Buffer](Pwn/Sacre%20buffer) | Pwn | SoEasY | 500 | SoEasY |
 | Pyrate #4 | Pwn | Worty | BONUS | xanhacks/Worty |
 | JavHack 1 | Reverse | xanhacks | 100 | SoEasY |
 | JavHack 2 | Reverse | xanhacks | 200 | SoEasY |
