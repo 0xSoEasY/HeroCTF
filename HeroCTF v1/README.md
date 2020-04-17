@@ -47,4 +47,4 @@ Liste des challenges :
 | [Rules](OSINT/Rules) | OSINT | SoEasY | 10 | SoEasY |
 | [Discord](OSINT/Discord) | OSINT | SoEasY | 100 | SoEasY |
 
-Total : 40 challenges !
+Total : 40 challenges pour cette première édition du HeroCTF !
